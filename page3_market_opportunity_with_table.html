@@ -1,0 +1,171 @@
+
+<h2 class="sr-only">Page 3 — Market Opportunity with FX losses evidence table beneath the four solution/problem cards.</h2>
+
+<style>
+  .slide { padding: 2rem 1.5rem; }
+  .eyebrow { font-size: 11px; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-text-tertiary); margin: 0 0 0.4rem; }
+  .headline { font-size: 26px; font-weight: 500; color: var(--color-text-primary); line-height: 1.25; margin: 0 0 0.25rem; }
+  .subhead { font-size: 15px; color: var(--color-text-secondary); margin: 0 0 2rem; line-height: 1.5; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+  .card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; }
+  .card-warn { border-left: 3px solid #E24B4A; border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0; }
+  .card-sol { border-left: 3px solid #1D9E75; border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0; }
+  .card-label { font-size: 11px; font-weight: 500; letter-spacing: 0.09em; text-transform: uppercase; margin: 0 0 0.5rem; }
+  .card-warn .card-label { color: #A32D2D; }
+  .card-sol .card-label { color: #0F6E56; }
+  .card-title { font-size: 15px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 0.4rem; }
+  .card-body { font-size: 13px; color: var(--color-text-secondary); line-height: 1.55; margin: 0; }
+  .divider-row { display: flex; align-items: center; gap: 12px; margin: 0.5rem 0; }
+  .divider-line { flex: 1; height: 0.5px; background: var(--color-border-tertiary); }
+  .divider-label { font-size: 12px; color: var(--color-text-tertiary); white-space: nowrap; }
+  .bottom-bar { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; display: flex; align-items: center; gap: 1.25rem; margin-top: 0.5rem; }
+  .bb-icon { width: 40px; height: 40px; border-radius: 50%; background: #E1F5EE; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .bb-text { font-size: 13px; color: var(--color-text-secondary); line-height: 1.55; }
+  .bb-text strong { color: var(--color-text-primary); font-weight: 500; }
+  .badge { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 500; padding: 3px 9px; border-radius: 99px; }
+  .badge-red { background: #FCEBEB; color: #791F1F; }
+  .badge-green { background: #E1F5EE; color: #085041; }
+  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 12px; }
+  .stat { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 0.75rem 1rem; text-align: center; }
+  .stat-num { font-size: 22px; font-weight: 500; color: var(--color-text-primary); line-height: 1; }
+  .stat-lbl { font-size: 11px; color: var(--color-text-secondary); margin-top: 4px; }
+
+  .evidence-section { margin-top: 1.5rem; }
+  .evidence-title { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-tertiary); margin: 0 0 0.75rem; }
+  .ev-table { width: 100%; border-collapse: collapse; font-size: 12px; table-layout: fixed; }
+  .ev-table th { background: #2C3E50; color: #fff; font-weight: 500; font-size: 11px; padding: 8px 10px; text-align: left; }
+  .ev-table th:first-child { border-radius: var(--border-radius-md) 0 0 0; }
+  .ev-table th:last-child { border-radius: 0 var(--border-radius-md) 0 0; }
+  .ev-table td { padding: 7px 10px; vertical-align: top; color: var(--color-text-secondary); border-bottom: 0.5px solid var(--color-border-tertiary); line-height: 1.45; }
+  .ev-table tr:nth-child(even) td { background: var(--color-background-secondary); }
+  .ev-table tr:last-child td { border-bottom: none; }
+  .ev-table tr:last-child td:first-child { border-radius: 0 0 0 var(--border-radius-md); }
+  .ev-table tr:last-child td:last-child { border-radius: 0 0 var(--border-radius-md) 0; }
+  .loss { color: #A32D2D; font-weight: 500; }
+  .opp { color: #0F6E56; font-size: 11px; }
+</style>
+
+<div class="slide">
+  <p class="eyebrow">Market opportunity</p>
+  <h1 class="headline">Even the biggest players can't solve the human problem.</h1>
+  <p class="subhead">The FX market moves $7.5T per day — yet Goldman Sachs, BNP Paribas, and top Vietnamese banks all posted FX losses in 2023. Size doesn't protect you from bad signals.</p>
+
+  <div class="stat-row">
+    <div class="stat">
+      <div class="stat-num">$7.5T</div>
+      <div class="stat-lbl">Daily FX volume globally</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">~70%</div>
+      <div class="stat-lbl">Traders who underperform systematic strategies</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">&gt;$800M</div>
+      <div class="stat-lbl">FX losses at surveyed banks, 2023 alone</div>
+    </div>
+  </div>
+
+  <div class="divider-row">
+    <div class="divider-line"></div>
+    <span class="divider-label">The two forces killing FX desks</span>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="cols" style="margin-top: 12px;">
+    <div class="card card-warn">
+      <div class="card-label"><i class="ti ti-user-x" aria-hidden="true" style="font-size:13px; vertical-align:-1px; margin-right:4px;"></i>Talent scarcity</div>
+      <p class="card-title">Good traders are rare — and still human</p>
+      <p class="card-body">Even elite traders are subject to fatigue, cognitive bias, and emotional reaction to news. Consistency at scale is impossible to hire for, retain, or replicate across desks.</p>
+      <div style="margin-top: 10px;"><span class="badge badge-red"><i class="ti ti-alert-triangle" aria-hidden="true" style="font-size:11px;"></i>Structural bottleneck</span></div>
+    </div>
+    <div class="card card-warn">
+      <div class="card-label"><i class="ti ti-chart-line" aria-hidden="true" style="font-size:13px; vertical-align:-1px; margin-right:4px;"></i>Lagging indicators</div>
+      <p class="card-title">TA signals tell you what already happened</p>
+      <p class="card-body">RSI, MACD, Bollinger Bands — all backward-looking. By the time they signal, the move has been made. Market makers exploit this delay and manufacture false breakouts.</p>
+      <div style="margin-top: 10px;"><span class="badge badge-red"><i class="ti ti-alert-triangle" aria-hidden="true" style="font-size:11px;"></i>Systematically exploited</span></div>
+    </div>
+  </div>
+
+  <div class="divider-row">
+    <div class="divider-line"></div>
+    <span class="divider-label">The Analytica solution</span>
+    <div class="divider-line"></div>
+  </div>
+
+  <div class="cols" style="margin-top: 12px;">
+    <div class="card card-sol">
+      <div class="card-label"><i class="ti ti-radar" aria-hidden="true" style="font-size:13px; vertical-align:-1px; margin-right:4px;"></i>Forward-looking intelligence</div>
+      <p class="card-title">Predictive, live, interdynamic signals</p>
+      <p class="card-body">Our engine surfaces high-probability setups before price confirms — using cross-market correlation, order-flow modeling, and volatility regime detection in real time.</p>
+      <div style="margin-top: 10px;"><span class="badge badge-green"><i class="ti ti-check" aria-hidden="true" style="font-size:11px;"></i>Anticipatory, not reactive</span></div>
+    </div>
+    <div class="card card-sol">
+      <div class="card-label"><i class="ti ti-shield-lock" aria-hidden="true" style="font-size:13px; vertical-align:-1px; margin-right:4px;"></i>Manipulation detection</div>
+      <p class="card-title">See the traps before you walk into them</p>
+      <p class="card-body">Proprietary pattern recognition flags stop hunts, liquidity sweeps, and synthetic breakouts — giving desks and traders the same visibility that market makers have always enjoyed.</p>
+      <div style="margin-top: 10px;"><span class="badge badge-green"><i class="ti ti-check" aria-hidden="true" style="font-size:11px;"></i>Levels the playing field</span></div>
+    </div>
+  </div>
+
+  <div class="bottom-bar">
+    <div class="bb-icon"><i class="ti ti-bulb" aria-hidden="true" style="font-size: 20px; color: #0F6E56;"></i></div>
+    <p class="bb-text" style="margin:0;"><strong>The insight:</strong> The market's chronic losses aren't a talent problem or a data problem — they're a <em>timing and transparency problem.</em> Analytica replaces lagging guesswork and human inconsistency with a consistent, manipulation-aware, forward-looking edge.</p>
+  </div>
+
+  <div class="evidence-section">
+    <div class="divider-row" style="margin-bottom: 0.75rem;">
+      <div class="divider-line"></div>
+      <span class="divider-label">Real-world evidence — FX losses at major institutions</span>
+      <div class="divider-line"></div>
+    </div>
+
+    <table class="ev-table">
+      <thead>
+        <tr>
+          <th style="width:18%;">Bank / group</th>
+          <th style="width:10%;">Period</th>
+          <th style="width:22%;">FX outcome</th>
+          <th style="width:24%;">How it hurt profit</th>
+          <th style="width:26%;">Analytica opportunity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong style="color:var(--color-text-primary);">Goldman Sachs</strong><br><span style="font-size:11px;">Global</span></td>
+          <td>2023–2024</td>
+          <td class="loss">Revenue well below prior years</td>
+          <td>FICC ~10% YoY below expectations; FX line dragged the desk.</td>
+          <td class="opp">Volatility & regime-switching models reduce exposure in low-vol FX windows.</td>
+        </tr>
+        <tr>
+          <td><strong style="color:var(--color-text-primary);">BNP Paribas</strong><br><span style="font-size:11px;">Global</span></td>
+          <td>2023 H1–H2</td>
+          <td class="loss">FX revenue materially lower vs prior year</td>
+          <td>FX/currency desks under pressure across FICC fixed-income lines.</td>
+          <td class="opp">Predictive risk models optimize desk sizing when FX liquidity falls.</td>
+        </tr>
+        <tr>
+          <td><strong style="color:var(--color-text-primary);">VPBank</strong><br><span style="font-size:11px;">Vietnam</span></td>
+          <td>1H 2023</td>
+          <td class="loss">~557B VND loss (~$22M USD)</td>
+          <td>FX segment turned negative; cut directly into net profit.</td>
+          <td class="opp">Short-term directional models avoid adverse FX-risk build-up.</td>
+        </tr>
+        <tr>
+          <td><strong style="color:var(--color-text-primary);">Techcombank</strong><br><span style="font-size:11px;">Vietnam</span></td>
+          <td>1H 2023</td>
+          <td class="loss">~240.5B VND loss (~$10M USD)</td>
+          <td>Prior-year profit center flipped to a cost center.</td>
+          <td class="opp">Predictive systems shift strategy from spot FX to correlations or options.</td>
+        </tr>
+        <tr>
+          <td><strong style="color:var(--color-text-primary);">VIB</strong><br><span style="font-size:11px;">Vietnam</span></td>
+          <td>1H 2023</td>
+          <td class="loss">~18B VND loss (~$1M USD)</td>
+          <td>FX losses dragged on overall segment profitability.</td>
+          <td class="opp">ML-based cost-of-trade forecasting avoids negative-edge FX trades.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
